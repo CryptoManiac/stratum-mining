@@ -4,6 +4,7 @@ import struct
 import StringIO
 import binascii
 from hashlib import sha256
+from ltc_scrypt import getPoWHash
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
@@ -162,6 +163,9 @@ def reverse_hash(h):
 
 def doublesha(b):
     return sha256(sha256(b).digest()).digest()
+
+def scrypt(b):
+    return getPoWHash(b)
 
 def bits_to_target(bits):
     return struct.unpack('<L', bits[:3] + b'\0')[0] * 2**(8*(int(bits[3], 16) - 3))

@@ -12,7 +12,7 @@ You NEED to set the parameters in BASIC SETTINGS
 CENTRAL_WALLET = 'set_valid_addresss_in_config!'	# local bitcoin address where money goes
 
 BITCOIN_TRUSTED_HOST = 'localhost'
-BITCOIN_TRUSTED_PORT = 8332
+BITCOIN_TRUSTED_PORT = 8344
 BITCOIN_TRUSTED_USER = 'user'
 BITCOIN_TRUSTED_PASSWORD = 'somepassword'
 
