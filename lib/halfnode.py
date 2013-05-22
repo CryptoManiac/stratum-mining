@@ -203,7 +203,7 @@ class CBlock(object):
             r.append(struct.pack("<I", self.nTime))
             r.append(struct.pack("<I", self.nBits))
             r.append(struct.pack("<I", self.nNonce))
-            self.sha256 = uint256_from_str(util.scrypt(''.join(r)))
+            self.sha256 = uint256_from_str(scrypt(''.join(r)))
         return self.sha256
 
     def is_valid(self):
