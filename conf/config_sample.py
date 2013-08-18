@@ -138,10 +138,10 @@ INSTANCE_ID = 31		# Not a clue what this is for... :P
 #  Again, Don't change unless you know what this is for.
 
 # Pool Target (Base Difficulty)
-POOL_TARGET = 1			# Pool-wide difficulty target int >= 1
+POOL_TARGET = 32			# Pool-wide difficulty target int >= 1
 
 # Variable Difficulty Enable
-VARIABLE_DIFF = True		# Master variable difficulty enable
+VARIABLE_DIFF = False		# Master variable difficulty enable
 
 # Variable diff tuning variables
 VDIFF_TARGET = 30		# Target time per share (i.e. try to get 1 share per this many seconds)

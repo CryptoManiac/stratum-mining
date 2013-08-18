@@ -10,6 +10,8 @@ from lib.util import b58encode
 import stratum.logger
 log = stratum.logger.get_logger('interfaces')
 
+from stratum import settings
+
 import lib.notify_email
 
 import DBInterface
