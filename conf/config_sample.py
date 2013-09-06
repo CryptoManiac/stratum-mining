@@ -9,7 +9,9 @@ You NEED to set the parameters in BASIC SETTINGS
 # ******************** BASIC SETTINGS ***************
 # These are the MUST BE SET parameters!
 
-CENTRAL_WALLET = 'set_valid_addresss_in_config!'	# local bitcoin address where money goes
+CENTRAL_WALLET = 'set_valid_local_pubkey_in_config!'	# Set public key for your local novacoind instance
+							# You must use local pubkey, otherwise your blocks could get rejected
+							# Use getnewpubkey RPC to create new pubkey
 
 BITCOIN_TRUSTED_HOST = 'localhost'
 BITCOIN_TRUSTED_PORT = 8344
