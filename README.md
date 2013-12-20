@@ -1,7 +1,7 @@
 stratum-mining
 ==============
 
-Basic implementation of bitcoin mining pool using Stratum mining protocol.
+Basic implementation of novacoin mining pool using Stratum mining protocol. Please note that this fork supports novacoin mining only.
 
 This fork includes a database implementation for:
 	None
