@@ -18,4 +18,4 @@ http://mining.bitcoin.cz/stratum-mining.
 
 Original version by Slush
 
-This version by GeneralFault (Tips Welcome: 15Zk7DoFYJ7hESpZzmix1WLkomTMGW81c2 )
+Tips Welcome: 1YydKUKykZgPQ6bgtzkSp2aXF7zh9ytwK 4amKb3uGPYziXdSFrT5AtFHC4imjqMeHkq
